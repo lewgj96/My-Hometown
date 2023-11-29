@@ -1,0 +1,81 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#hometown{
+    background-image: url("images/kulim.jpg");
+    background-size: cover;
+    height:343px;
+}
+
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 0 0 10px black;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    color: whitesmoke;
+    text-shadow: 0 0 10px black;
+}
+
+#activity-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+#activity{
+    height: 343px;
+    background: #e2eafc;
+}
+
+#activity img {
+    width: 100px;
+    border-radius: 50px;
+}
+
+h3{
+    margin-top: 0px;
+    padding: 20px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#profile{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    background: #f2ebfb;
+}
+
+#profile img{
+    width: 150px;
+    border-radius: 20px;
+}
